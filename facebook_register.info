@@ -1,0 +1,8 @@
+name = Facebook User Register 
+description = Register drupal account using Facebook Profile
+core = 6.x
+version = 6.x-0.1-beta
+php = 5.x
+package = NAzT
+dependencies[] = user
+dependencies[] = profile
