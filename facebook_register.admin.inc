@@ -75,7 +75,7 @@ function authen() {
             });    
        }); 
       });", "inline");
-//      drupal_set_message(print_r($me, 1));
+      
       $account = array(
         'name' => $me[id],
         'mail' => $me[email],
