@@ -96,9 +96,9 @@ function authen() {
         $user = $c;
         drupal_set_message('auto login');
       }
-  drupal_set_message('Hello, Drupal\'s World');
   return '<div id="fb-root"></div>
       <div>
-    <button id="disconnect">Disconnect</button>
-  </div>'. '<pre>' .  print_r($me, 1) . '</pre>';
+        <button id="disconnect">Disconnect</button>
+      </div>'. 
+      '<pre>' .  print_r($me, 1) . '</pre>';
 }
